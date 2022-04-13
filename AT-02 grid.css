@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+
+.caixa{
+    height: 80vh;
+    display: grid;
+    grid-template-areas: 
+        "primeira segunda terceira "
+        "quarta segunda terceira "
+        "quinta quinta quinta ";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr ;
+    gap: 10px;
+}
+
+.primeira{
+    grid-area: primeira;
+    background-color: plum;
+    border: solid 4px black;
+    color: plum;
+}
+
+.segunda{
+    grid-area: segunda;
+    background-color: aquamarine;
+    border: solid 4px black;
+    color: aquamarine;
+}
+
+.terceira{
+    grid-area: terceira;
+    background-color: green;
+    border: solid 4px black;
+    color: green;
+}
+
+.quarta{
+    grid-area: quarta;
+    background-color: blue;
+    border: solid 4px black;
+    color: blue;
+}
+
+.quinta{
+    grid-area: quinta;
+    background-color: red;
+    border: solid 4px black;
+    color: red;
+}
